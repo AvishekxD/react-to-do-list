@@ -1,12 +1,28 @@
-# React + Vite
+✅ My To-Do List Application
+A responsive and user-friendly To-Do List application built with React and styled using Tailwind CSS. This application allows users to effectively manage their tasks, with all data persistently stored in the browser's local storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Project Overview
+This To-Do List provides a straightforward interface for task management. It's designed to be intuitive and visually appealing, adapting seamlessly across various devices. The primary focus is on simplicity and reliability, ensuring your tasks are always available where you left them in your browser.
 
-Currently, two official plugins are available:
+📸 Screenshots
+Here's a visual overview of the To-Do List application:
+<img src="images/MyTodo.png" alt="MyTodo" width="450" style="border-radius: 20px;">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+Add Tasks: Quickly add new tasks to your list.
+Mark as Complete: Toggle tasks as completed or incomplete to track your progress.
+Delete Tasks: Remove tasks that are no longer needed.
+Local Storage Persistence: All tasks are saved directly in your browser's local storage, ensuring your data is preserved even after closing and reopening the browser tab.
+Responsive UI: Crafted with Tailwind CSS to ensure a consistent and optimized experience on desktops, tablets, and mobile devices.
+Confirmation Modals: Provides a user-friendly confirmation dialog before deleting tasks.
 
-## Expanding the ESLint configuration
+🚀 Technologies Used
+React: A declarative, component-based JavaScript library for building dynamic user interfaces.
+Tailwind CSS: A highly customizable, utility-first CSS framework that enables rapid UI development directly in your markup.
+JavaScript (ES6+): The core programming language for application logic.
+HTML5 & CSS3: For structuring and styling the web content.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Setup and Installation
+
+npm install
+npm run dev
